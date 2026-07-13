@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form task menna khalid</title>
+</head>
+
+<body>
+    <form action="form.html" method="post">
+
+        <h1>Diversity & inclusion Training</h1>
+        <div class="name">
+            <label for="Name">Name</label>
+            <br>
+            <input type="text" id="Name" name="thename" minlength="3" maxlength="9">
+        </div><br>
+        <div class="pass"><input type="password" name="passwo" placeholder="password" minlength="10">
+        </div><br>
+        <div class="Emaill"><label for="eemail">Email</label><br>
+            <input type="email" id="eemail" name="email">
+        </div><br>
+        <div class="tel">
+            <label for="telephone">Tel</label><br>
+            <input type="tel" id="telephone" name="telephone_number">
+        </div><br>
+        <div class="org"><label for="orgcom">organization or Company</label><br>
+            <textarea name="companyrorganization" id="orgcom" cols="40" rows="2"></textarea>
+        </div><br>
+        <div class="checkbox"><label>Registration type</label>
+            <br>
+            <input type="checkbox" name="Registration_type" id="busines" value="business"><label
+                for="busines">Business</label><br>
+            <input type="checkbox" name="Registration_type" id="educate" value="educator"><label
+                for="educate">Educator</label><br>
+            <input type="checkbox" name="Registration_type" id="parent" value="parent"><label
+                for="parent">Parent</label><br>
+            <input type="checkbox" name="Registration_type" id="Stud" value="student"><label
+                for="Stud">Student</label><br>
+            <input type="checkbox" name="Registration_type" id="other" value="other"><label for="other">Other</label>
+        </div><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
