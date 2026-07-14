@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+}
+
+header {
+    background-image: url(download.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.762);
+    z-index: 0;
+}
+
+header .content {
+    margin: auto;
+    color: white;
+    width: fit-content;
+    text-align: center;
+    transform: translatey(31vh);
+    /* instead of using flex  */
+    position: relative;
+    z-index: 1;
+}
+
+header .content p {
+    font-size: xx-small;
+    margin: 14px 0;
+}
+
+header .content h1 {
+    font-size: 50px;
+}
+
+header .content button {
+    background-color: rgb(57, 158, 241);
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: white;
+    font-size: xx-small;
+    border: none;
+}
