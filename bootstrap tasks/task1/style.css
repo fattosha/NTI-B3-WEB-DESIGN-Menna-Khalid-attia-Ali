@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+    text-align: left!important;
+    color: white;
+}
+
+header {
+    background-image: url(images/hero-bg.jpg);
+    background-size: cover;
+    height: 35rem;
+    position: relative;
+    color: white;
+    font-size: large;
+}
+
+h2 {
+    color: white;
+    margin: 0 0 10% 0;
+    font-family: "Dancing Script";
+    font-size: 4rem;
+}
+
+.carousel-inner>div {
+    width: 45vw;
+    height: 28rem;
+}
+
+.carousel-inner>div>div {
+    transform: translate(-50%, -50%);
+    top: 40%;
+    width: 40vw;
+    left: 50%;
+}
+
+p #carouselExampleDark {
+    height: 300px;
+    width: 100%;
+}
+
+#carouselExampleDark .btn {
+    width: 50%;
+    text-align: center!important;
+}
+
+.carousel-indicators {
+    left: 15%;
+    transform: translateX(-50%);
+}
+
+.carousel-indicators>button.active {
+    width: 20px!important;
+    height: 20px!important;
+    border-radius: 50%;
+    background-color: #FFC107!important;
+}
+
+.carousel-indicators>button {
+    width: 10px!important;
+    height: 10px!important;
+    border-radius: 50%;
+    background-color: #ffffff!important;
+}
+
+ul {
+    width: 60%;
+    white-space: nowrap;
+    font-size: medium;
+}
+
+nav>div {
+    height: 20vh;
+}
+
+nav .icons {
+    width: 10%;
+}
+
+nav .icons i,
+nav li a {
+    transition-duration: .3s;
+}
+
+nav .icons i:hover,
+nav li a:hover {
+    color: #FFC107!important;
+}
+
+nav .btn {
+    font-size: small;
+    padding: 10% 30%;
+}
